@@ -1,0 +1,10 @@
+# 1 1 2 3 5
+
+def count_rabbit(month)
+	l=[1,1]
+	i=2
+
+	for x in range(month):
+    	l[i:]=[l[i-1]+l[i-2]]
+   	 i+=1
+	return l

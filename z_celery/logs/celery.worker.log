@@ -1,0 +1,562 @@
+/home/tarena/桌面/test/my_code/month04/celery/taskproj/venv/lib/python3.6/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2019-07-13 10:52:20,821: WARNING/MainProcess] /home/tarena/桌面/test/my_code/month04/celery/taskproj/venv/lib/python3.6/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+/home/tarena/桌面/test/my_code/month04/celery/taskproj/venv/lib/python3.6/site-packages/billiard/__init__.py:321: RuntimeWarning: force_execv is not supported as the billiard C extension is not installed
+  warnings.warn(RuntimeWarning(W_NO_EXECV))
+
+[2019-07-13 10:52:20,835: WARNING/MainProcess] /home/tarena/桌面/test/my_code/month04/celery/taskproj/venv/lib/python3.6/site-packages/billiard/__init__.py:321: RuntimeWarning: force_execv is not supported as the billiard C extension is not installed
+  warnings.warn(RuntimeWarning(W_NO_EXECV))
+
+[2019-07-13 10:52:20,943: INFO/MainProcess] Connected to redis://localhost:6379/1
+[2019-07-13 10:52:20,951: INFO/MainProcess] mingle: searching for neighbors
+[2019-07-13 10:52:21,956: INFO/MainProcess] mingle: all alone
+/home/tarena/桌面/test/my_code/month04/celery/taskproj/venv/lib/python3.6/site-packages/djcelery/loaders.py:133: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2019-07-13 10:52:21,991: WARNING/MainProcess] /home/tarena/桌面/test/my_code/month04/celery/taskproj/venv/lib/python3.6/site-packages/djcelery/loaders.py:133: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2019-07-13 10:52:21,992: WARNING/MainProcess] celery@tarena ready.
+[2019-07-13 10:52:29,519: INFO/MainProcess] Received task: course-task[69ecaab4-8d74-4354-9f1e-a7f494f753b0]
+[2019-07-13 10:52:29,525: WARNING/Worker-4] start course task
+[2019-07-13 10:52:29,526: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 10:52:33,527: WARNING/Worker-4] end course task
+[2019-07-13 10:52:33,532: INFO/MainProcess] Task course-task[69ecaab4-8d74-4354-9f1e-a7f494f753b0] succeeded in 4.008476896997308s: None
+[2019-07-13 10:52:39,520: INFO/MainProcess] Received task: course-task[9f2e3aa3-760c-4f6e-8d91-389d1253dc45]
+[2019-07-13 10:52:39,523: WARNING/Worker-2] start course task
+[2019-07-13 10:52:39,523: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 10:52:43,527: WARNING/Worker-2] end course task
+[2019-07-13 10:52:43,533: INFO/MainProcess] Task course-task[9f2e3aa3-760c-4f6e-8d91-389d1253dc45] succeeded in 4.010867053002585s: None
+[2019-07-13 10:52:44,520: INFO/MainProcess] Received task: course-task[8374d5b0-0458-4bf1-8d2f-d7ade465c287]
+[2019-07-13 10:52:44,522: WARNING/Worker-3] start course task
+[2019-07-13 10:52:44,523: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 10:52:48,527: WARNING/Worker-3] end course task
+[2019-07-13 10:52:48,532: INFO/MainProcess] Task course-task[8374d5b0-0458-4bf1-8d2f-d7ade465c287] succeeded in 4.0108534269966185s: None
+[2019-07-13 10:52:49,532: INFO/MainProcess] Received task: course-task[497570d3-7c4f-4f06-8b7a-9e247ce3567b]
+[2019-07-13 10:52:49,534: WARNING/Worker-1] start course task
+[2019-07-13 10:52:49,535: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 10:52:53,539: WARNING/Worker-1] end course task
+[2019-07-13 10:52:53,545: INFO/MainProcess] Task course-task[497570d3-7c4f-4f06-8b7a-9e247ce3567b] succeeded in 4.0111055099987425s: None
+[2019-07-13 10:52:54,533: INFO/MainProcess] Received task: course-task[6dc95791-b3c8-4b6a-abef-ebc2ba886020]
+[2019-07-13 10:52:54,535: WARNING/Worker-4] start course task
+[2019-07-13 10:52:54,535: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 10:52:58,537: WARNING/Worker-4] end course task
+[2019-07-13 10:52:58,540: INFO/MainProcess] Task course-task[6dc95791-b3c8-4b6a-abef-ebc2ba886020] succeeded in 4.005504667002242s: None
+[2019-07-13 10:53:14,535: INFO/MainProcess] Received task: course-task[c38a0455-cd49-4830-b930-3c360135e260]
+[2019-07-13 10:53:14,536: WARNING/Worker-2] start course task
+[2019-07-13 10:53:14,537: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 10:53:18,539: WARNING/Worker-2] end course task
+[2019-07-13 10:53:18,541: INFO/MainProcess] Task course-task[c38a0455-cd49-4830-b930-3c360135e260] succeeded in 4.005461550987093s: None
+[2019-07-13 10:53:19,534: INFO/MainProcess] Received task: course-task[bff41961-81f9-4539-ab92-72ac48d327ed]
+[2019-07-13 10:53:19,535: WARNING/Worker-3] start course task
+[2019-07-13 10:53:19,535: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 10:53:23,539: WARNING/Worker-3] end course task
+[2019-07-13 10:53:23,541: INFO/MainProcess] Task course-task[bff41961-81f9-4539-ab92-72ac48d327ed] succeeded in 4.006704777973937s: None
+[2019-07-13 10:53:39,539: INFO/MainProcess] Received task: course-task[e64e0395-8ceb-4208-b793-3eb4f7af8ec0]
+[2019-07-13 10:53:39,544: WARNING/Worker-1] start course task
+[2019-07-13 10:53:39,545: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 10:53:43,549: WARNING/Worker-1] end course task
+[2019-07-13 10:53:43,554: INFO/MainProcess] Task course-task[e64e0395-8ceb-4208-b793-3eb4f7af8ec0] succeeded in 4.010852410981897s: None
+[2019-07-13 10:53:44,538: INFO/MainProcess] Received task: course-task[60244c70-c8d6-43be-9867-42a5c8eaba1d]
+[2019-07-13 10:53:44,540: WARNING/Worker-4] start course task
+[2019-07-13 10:53:44,541: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 10:53:48,544: WARNING/Worker-4] end course task
+[2019-07-13 10:53:48,547: INFO/MainProcess] Task course-task[60244c70-c8d6-43be-9867-42a5c8eaba1d] succeeded in 4.0067965449998155s: None
+[2019-07-13 10:54:04,540: INFO/MainProcess] Received task: course-task[e8be5681-5346-4fa2-aa02-4dceb8aae504]
+[2019-07-13 10:54:04,542: WARNING/Worker-2] start course task
+[2019-07-13 10:54:04,542: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 10:54:08,547: WARNING/Worker-2] end course task
+[2019-07-13 10:54:08,548: INFO/MainProcess] Task course-task[e8be5681-5346-4fa2-aa02-4dceb8aae504] succeeded in 4.00638196899672s: None
+[2019-07-13 10:54:09,541: INFO/MainProcess] Received task: course-task[6cb6cc92-4862-4537-8e79-f1795fc58070]
+[2019-07-13 10:54:09,542: WARNING/Worker-3] start course task
+[2019-07-13 10:54:09,543: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 10:54:13,547: WARNING/Worker-3] end course task
+[2019-07-13 10:54:13,549: INFO/MainProcess] Task course-task[6cb6cc92-4862-4537-8e79-f1795fc58070] succeeded in 4.007347824022872s: None
+[2019-07-13 10:54:29,542: INFO/MainProcess] Received task: course-task[6cff85ca-93cb-4d1e-97b5-54d03f62118e]
+[2019-07-13 10:54:29,544: WARNING/Worker-1] start course task
+[2019-07-13 10:54:29,544: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 10:54:33,548: WARNING/Worker-1] end course task
+[2019-07-13 10:54:33,551: INFO/MainProcess] Task course-task[6cff85ca-93cb-4d1e-97b5-54d03f62118e] succeeded in 4.007434195984388s: None
+[2019-07-13 10:54:34,542: INFO/MainProcess] Received task: course-task[31d19b25-5a8e-4220-81f9-a0ef020f9a98]
+[2019-07-13 10:54:34,544: WARNING/Worker-4] start course task
+[2019-07-13 10:54:34,545: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 10:54:38,548: WARNING/Worker-4] end course task
+[2019-07-13 10:54:38,550: INFO/MainProcess] Task course-task[31d19b25-5a8e-4220-81f9-a0ef020f9a98] succeeded in 4.005614308989607s: None
+[2019-07-13 10:54:54,543: INFO/MainProcess] Received task: course-task[23810ed8-bd4c-49e9-8280-33091a24b273]
+[2019-07-13 10:54:54,544: WARNING/Worker-2] start course task
+[2019-07-13 10:54:54,544: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 10:54:58,547: WARNING/Worker-2] end course task
+[2019-07-13 10:54:58,549: INFO/MainProcess] Task course-task[23810ed8-bd4c-49e9-8280-33091a24b273] succeeded in 4.005418397980975s: None
+[2019-07-13 10:54:59,548: INFO/MainProcess] Received task: course-task[d3277b42-8884-49ba-ac64-312733f07c15]
+[2019-07-13 10:54:59,552: WARNING/Worker-3] start course task
+[2019-07-13 10:54:59,553: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 10:55:03,555: WARNING/Worker-3] end course task
+[2019-07-13 10:55:03,557: INFO/MainProcess] Task course-task[d3277b42-8884-49ba-ac64-312733f07c15] succeeded in 4.005868075997569s: None
+[2019-07-13 10:55:19,548: INFO/MainProcess] Received task: course-task[c52128ed-0b6a-44c4-917f-61f76e0edcb4]
+[2019-07-13 10:55:19,550: WARNING/Worker-1] start course task
+[2019-07-13 10:55:19,551: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 10:55:23,555: WARNING/Worker-1] end course task
+[2019-07-13 10:55:23,557: INFO/MainProcess] Task course-task[c52128ed-0b6a-44c4-917f-61f76e0edcb4] succeeded in 4.007449716998963s: None
+[2019-07-13 10:55:24,549: INFO/MainProcess] Received task: course-task[2d91890c-0047-4ca5-9eff-2130a580afef]
+[2019-07-13 10:55:24,552: WARNING/Worker-4] start course task
+[2019-07-13 10:55:24,552: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 10:55:28,556: WARNING/Worker-4] end course task
+[2019-07-13 10:55:28,561: INFO/MainProcess] Task course-task[2d91890c-0047-4ca5-9eff-2130a580afef] succeeded in 4.009854837000603s: None
+[2019-07-13 10:55:39,553: INFO/MainProcess] Received task: course-task[1ae8ab45-1351-45af-a749-687217d18fad]
+[2019-07-13 10:55:39,555: WARNING/Worker-2] start course task
+[2019-07-13 10:55:39,555: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 10:55:43,559: WARNING/Worker-2] end course task
+[2019-07-13 10:55:43,561: INFO/MainProcess] Task course-task[1ae8ab45-1351-45af-a749-687217d18fad] succeeded in 4.006709795008646s: None
+[2019-07-13 10:55:44,555: INFO/MainProcess] Received task: course-task[1f6a221e-54a2-4476-a1e0-31131e26d539]
+[2019-07-13 10:55:44,557: WARNING/Worker-3] start course task
+[2019-07-13 10:55:44,558: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 10:55:48,562: WARNING/Worker-3] end course task
+[2019-07-13 10:55:48,565: INFO/MainProcess] Task course-task[1f6a221e-54a2-4476-a1e0-31131e26d539] succeeded in 4.008102109015454s: None
+[2019-07-13 10:55:49,572: INFO/MainProcess] Received task: course-task[0dc71cd0-5d9f-4163-9962-d8dc864771e1]
+[2019-07-13 10:55:49,575: WARNING/Worker-1] start course task
+[2019-07-13 10:55:49,576: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 10:55:53,579: WARNING/Worker-1] end course task
+[2019-07-13 10:55:53,581: INFO/MainProcess] Task course-task[0dc71cd0-5d9f-4163-9962-d8dc864771e1] succeeded in 4.007186091999756s: None
+[2019-07-13 10:56:09,574: INFO/MainProcess] Received task: course-task[2ea59c19-81e0-41d4-bd73-85b92f816650]
+[2019-07-13 10:56:09,578: WARNING/Worker-4] start course task
+[2019-07-13 10:56:09,579: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 10:56:13,583: WARNING/Worker-4] end course task
+[2019-07-13 10:56:13,587: INFO/MainProcess] Task course-task[2ea59c19-81e0-41d4-bd73-85b92f816650] succeeded in 4.009376016998431s: None
+[2019-07-13 10:56:34,577: INFO/MainProcess] Received task: course-task[55000085-b2ee-4812-8a31-2e396050903a]
+[2019-07-13 10:56:34,579: WARNING/Worker-2] start course task
+[2019-07-13 10:56:34,579: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 10:56:38,583: WARNING/Worker-2] end course task
+[2019-07-13 10:56:38,587: INFO/MainProcess] Task course-task[55000085-b2ee-4812-8a31-2e396050903a] succeeded in 4.008775959984632s: None
+[2019-07-13 10:56:54,580: INFO/MainProcess] Received task: course-task[6365b024-141b-4a17-ad62-037e602b2b74]
+[2019-07-13 10:56:54,582: WARNING/Worker-3] start course task
+[2019-07-13 10:56:54,582: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 10:56:58,587: WARNING/Worker-3] end course task
+[2019-07-13 10:56:58,589: INFO/MainProcess] Task course-task[6365b024-141b-4a17-ad62-037e602b2b74] succeeded in 4.007696807006141s: None
+[2019-07-13 10:56:59,581: INFO/MainProcess] Received task: course-task[01a01519-55ac-4a34-b56b-3989c380ac45]
+[2019-07-13 10:56:59,583: WARNING/Worker-1] start course task
+[2019-07-13 10:56:59,583: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 10:57:03,587: WARNING/Worker-1] end course task
+[2019-07-13 10:57:03,590: INFO/MainProcess] Task course-task[01a01519-55ac-4a34-b56b-3989c380ac45] succeeded in 4.007400989998132s: None
+[2019-07-13 10:57:04,582: INFO/MainProcess] Received task: course-task[7009343c-aaf4-4909-821d-387f4f25defa]
+[2019-07-13 10:57:04,584: WARNING/Worker-4] start course task
+[2019-07-13 10:57:04,585: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 10:57:08,587: WARNING/Worker-4] end course task
+[2019-07-13 10:57:08,589: INFO/MainProcess] Task course-task[7009343c-aaf4-4909-821d-387f4f25defa] succeeded in 4.0053468119876925s: None
+[2019-07-13 10:57:19,580: INFO/MainProcess] Received task: course-task[ad258541-19b3-48bc-9150-09013ee79c2d]
+[2019-07-13 10:57:19,581: WARNING/Worker-2] start course task
+[2019-07-13 10:57:19,581: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 10:57:23,585: WARNING/Worker-2] end course task
+[2019-07-13 10:57:23,588: INFO/MainProcess] Task course-task[ad258541-19b3-48bc-9150-09013ee79c2d] succeeded in 4.007345569989411s: None
+[2019-07-13 10:57:24,583: INFO/MainProcess] Received task: course-task[c3ca4715-6c32-4fbf-a059-96212bcfe1ce]
+[2019-07-13 10:57:24,585: WARNING/Worker-3] start course task
+[2019-07-13 10:57:24,585: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 10:57:28,590: WARNING/Worker-3] end course task
+[2019-07-13 10:57:28,592: INFO/MainProcess] Task course-task[c3ca4715-6c32-4fbf-a059-96212bcfe1ce] succeeded in 4.008024962007767s: None
+[2019-07-13 10:57:44,585: INFO/MainProcess] Received task: course-task[a657b72e-d467-4e4c-81da-c242974ab040]
+[2019-07-13 10:57:44,586: WARNING/Worker-1] start course task
+[2019-07-13 10:57:44,587: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 10:57:48,591: WARNING/Worker-1] end course task
+[2019-07-13 10:57:48,594: INFO/MainProcess] Task course-task[a657b72e-d467-4e4c-81da-c242974ab040] succeeded in 4.008100193022983s: None
+[2019-07-13 10:57:49,585: INFO/MainProcess] Received task: course-task[21447892-e64a-4543-8fca-584d97a94319]
+[2019-07-13 10:57:49,588: WARNING/Worker-4] start course task
+[2019-07-13 10:57:49,588: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 10:57:53,591: WARNING/Worker-4] end course task
+[2019-07-13 10:57:53,594: INFO/MainProcess] Task course-task[21447892-e64a-4543-8fca-584d97a94319] succeeded in 4.006893140991451s: None
+[2019-07-13 10:58:09,587: INFO/MainProcess] Received task: course-task[2876e3f5-a177-4f35-ad29-755c55fbbf06]
+[2019-07-13 10:58:09,589: WARNING/Worker-2] start course task
+[2019-07-13 10:58:09,589: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 10:58:13,591: WARNING/Worker-2] end course task
+[2019-07-13 10:58:13,592: INFO/MainProcess] Task course-task[2876e3f5-a177-4f35-ad29-755c55fbbf06] succeeded in 4.00289107701974s: None
+[2019-07-13 10:58:14,586: INFO/MainProcess] Received task: course-task[bc54e19f-ef19-4cb9-ad19-c9e96329927d]
+[2019-07-13 10:58:14,586: WARNING/Worker-3] start course task
+[2019-07-13 10:58:14,587: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 10:58:18,591: WARNING/Worker-3] end course task
+[2019-07-13 10:58:18,593: INFO/MainProcess] Task course-task[bc54e19f-ef19-4cb9-ad19-c9e96329927d] succeeded in 4.006947849004064s: None
+[2019-07-13 10:58:34,592: INFO/MainProcess] Received task: course-task[f8f7506e-0344-4278-8740-505f25e7f2b1]
+[2019-07-13 10:58:34,595: WARNING/Worker-1] start course task
+[2019-07-13 10:58:34,595: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 10:58:38,599: WARNING/Worker-1] end course task
+[2019-07-13 10:58:38,603: INFO/MainProcess] Task course-task[f8f7506e-0344-4278-8740-505f25e7f2b1] succeeded in 4.008417350007221s: None
+[2019-07-13 10:58:39,592: INFO/MainProcess] Received task: course-task[068a4383-9a9d-46c9-a7f1-d52a9fa0262e]
+[2019-07-13 10:58:39,594: WARNING/Worker-4] start course task
+[2019-07-13 10:58:39,594: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 10:58:43,595: WARNING/Worker-4] end course task
+[2019-07-13 10:58:43,597: INFO/MainProcess] Task course-task[068a4383-9a9d-46c9-a7f1-d52a9fa0262e] succeeded in 4.003984618000686s: None
+[2019-07-13 10:58:59,609: INFO/MainProcess] Received task: course-task[31ec483e-b4b3-4198-91cc-d2802906fcba]
+[2019-07-13 10:58:59,611: WARNING/Worker-2] start course task
+[2019-07-13 10:58:59,611: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 10:59:03,615: WARNING/Worker-2] end course task
+[2019-07-13 10:59:03,617: INFO/MainProcess] Task course-task[31ec483e-b4b3-4198-91cc-d2802906fcba] succeeded in 4.0070571299875155s: None
+[2019-07-13 10:59:04,610: INFO/MainProcess] Received task: course-task[54239dfb-5f49-4d77-b4fb-483cb49ab5b8]
+[2019-07-13 10:59:04,612: WARNING/Worker-3] start course task
+[2019-07-13 10:59:04,612: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 10:59:08,617: WARNING/Worker-3] end course task
+[2019-07-13 10:59:08,619: INFO/MainProcess] Task course-task[54239dfb-5f49-4d77-b4fb-483cb49ab5b8] succeeded in 4.007899143995019s: None
+[2019-07-13 10:59:24,612: INFO/MainProcess] Received task: course-task[9cc0a6e5-bd56-4b5b-b139-7fd61b6a43b2]
+[2019-07-13 10:59:24,614: WARNING/Worker-1] start course task
+[2019-07-13 10:59:24,614: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 10:59:28,618: WARNING/Worker-1] end course task
+[2019-07-13 10:59:28,620: INFO/MainProcess] Task course-task[9cc0a6e5-bd56-4b5b-b139-7fd61b6a43b2] succeeded in 4.0059957379999105s: None
+[2019-07-13 10:59:29,612: INFO/MainProcess] Received task: course-task[c4e7aefe-8fb6-4623-9050-ab59f664a099]
+[2019-07-13 10:59:29,614: WARNING/Worker-4] start course task
+[2019-07-13 10:59:29,615: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 10:59:33,619: WARNING/Worker-4] end course task
+[2019-07-13 10:59:33,623: INFO/MainProcess] Task course-task[c4e7aefe-8fb6-4623-9050-ab59f664a099] succeeded in 4.008769233012572s: None
+[2019-07-13 10:59:49,616: INFO/MainProcess] Received task: course-task[a5b57d2d-d85d-4280-9124-8b60757b49d9]
+[2019-07-13 10:59:49,617: WARNING/Worker-2] start course task
+[2019-07-13 10:59:49,618: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 10:59:53,621: WARNING/Worker-2] end course task
+[2019-07-13 10:59:53,624: INFO/MainProcess] Task course-task[a5b57d2d-d85d-4280-9124-8b60757b49d9] succeeded in 4.006695639982354s: None
+[2019-07-13 10:59:54,618: INFO/MainProcess] Received task: course-task[c1ece5ef-5669-42c7-b8fa-8cbce491e439]
+[2019-07-13 10:59:54,620: WARNING/Worker-3] start course task
+[2019-07-13 10:59:54,621: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 10:59:58,623: WARNING/Worker-3] end course task
+[2019-07-13 10:59:58,627: INFO/MainProcess] Task course-task[c1ece5ef-5669-42c7-b8fa-8cbce491e439] succeeded in 4.007149790995754s: None
+[2019-07-13 11:00:14,618: INFO/MainProcess] Received task: course-task[57d8719b-9271-4e1f-a079-fcfb252218a7]
+[2019-07-13 11:00:14,620: WARNING/Worker-1] start course task
+[2019-07-13 11:00:14,620: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:00:18,623: WARNING/Worker-1] end course task
+[2019-07-13 11:00:18,626: INFO/MainProcess] Task course-task[57d8719b-9271-4e1f-a079-fcfb252218a7] succeeded in 4.005763811990619s: None
+[2019-07-13 11:00:19,617: INFO/MainProcess] Received task: course-task[c7149572-6293-4089-ac15-4f6a75bdadc0]
+[2019-07-13 11:00:19,619: WARNING/Worker-4] start course task
+[2019-07-13 11:00:19,619: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:00:23,623: WARNING/Worker-4] end course task
+[2019-07-13 11:00:23,624: INFO/MainProcess] Task course-task[c7149572-6293-4089-ac15-4f6a75bdadc0] succeeded in 4.00609519801219s: None
+[2019-07-13 11:00:34,617: INFO/MainProcess] Received task: course-task[33c764ca-b870-49cc-9f23-37bc1ea918fe]
+[2019-07-13 11:00:34,618: WARNING/Worker-2] start course task
+[2019-07-13 11:00:34,618: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:00:38,622: WARNING/Worker-2] end course task
+[2019-07-13 11:00:38,624: INFO/MainProcess] Task course-task[33c764ca-b870-49cc-9f23-37bc1ea918fe] succeeded in 4.006230347993551s: None
+[2019-07-13 11:00:39,620: INFO/MainProcess] Received task: course-task[d33e2812-4428-45f6-8184-d1f4a0c17b33]
+[2019-07-13 11:00:39,622: WARNING/Worker-3] start course task
+[2019-07-13 11:00:39,622: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:00:43,627: WARNING/Worker-3] end course task
+[2019-07-13 11:00:43,629: INFO/MainProcess] Task course-task[d33e2812-4428-45f6-8184-d1f4a0c17b33] succeeded in 4.007851896982174s: None
+[2019-07-13 11:00:44,620: INFO/MainProcess] Received task: course-task[4b34f5bd-4ee5-4e72-9492-216091f3b3fb]
+[2019-07-13 11:00:44,622: WARNING/Worker-1] start course task
+[2019-07-13 11:00:44,622: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:00:48,627: WARNING/Worker-1] end course task
+[2019-07-13 11:00:48,630: INFO/MainProcess] Task course-task[4b34f5bd-4ee5-4e72-9492-216091f3b3fb] succeeded in 4.007764695998048s: None
+[2019-07-13 11:00:59,622: INFO/MainProcess] Received task: course-task[00e8576e-6920-45d4-9331-3cf2a0a6347c]
+[2019-07-13 11:00:59,623: WARNING/Worker-4] start course task
+[2019-07-13 11:00:59,624: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:01:03,628: WARNING/Worker-4] end course task
+[2019-07-13 11:01:03,631: INFO/MainProcess] Task course-task[00e8576e-6920-45d4-9331-3cf2a0a6347c] succeeded in 4.00799843299319s: None
+[2019-07-13 11:01:04,622: INFO/MainProcess] Received task: course-task[a5482412-a65d-450b-83dd-4fdee58872ac]
+[2019-07-13 11:01:04,624: WARNING/Worker-2] start course task
+[2019-07-13 11:01:04,624: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:01:08,627: WARNING/Worker-2] end course task
+[2019-07-13 11:01:08,629: INFO/MainProcess] Task course-task[a5482412-a65d-450b-83dd-4fdee58872ac] succeeded in 4.005651396990288s: None
+[2019-07-13 11:01:24,621: INFO/MainProcess] Received task: course-task[d94d24cf-fa09-47c1-969d-375119312f7e]
+[2019-07-13 11:01:24,622: WARNING/Worker-3] start course task
+[2019-07-13 11:01:24,622: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:01:28,627: WARNING/Worker-3] end course task
+[2019-07-13 11:01:28,629: INFO/MainProcess] Task course-task[d94d24cf-fa09-47c1-969d-375119312f7e] succeeded in 4.007266372995218s: None
+[2019-07-13 11:01:29,625: INFO/MainProcess] Received task: course-task[ae3b6e74-9f0b-41d8-91bd-9f8b27bf1bba]
+[2019-07-13 11:01:29,627: WARNING/Worker-1] start course task
+[2019-07-13 11:01:29,627: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:01:33,632: WARNING/Worker-1] end course task
+[2019-07-13 11:01:33,634: INFO/MainProcess] Task course-task[ae3b6e74-9f0b-41d8-91bd-9f8b27bf1bba] succeeded in 4.0078579150140285s: None
+[2019-07-13 11:01:49,638: INFO/MainProcess] Received task: course-task[fefdbe96-8783-4db1-8c49-02ef2b86f8ab]
+[2019-07-13 11:01:49,640: WARNING/Worker-4] start course task
+[2019-07-13 11:01:49,640: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:01:53,644: WARNING/Worker-4] end course task
+[2019-07-13 11:01:53,647: INFO/MainProcess] Task course-task[fefdbe96-8783-4db1-8c49-02ef2b86f8ab] succeeded in 4.0077832660172135s: None
+[2019-07-13 11:01:54,638: INFO/MainProcess] Received task: course-task[733468ce-64c4-46e3-b6fa-2d78a5fc4e69]
+[2019-07-13 11:01:54,640: WARNING/Worker-2] start course task
+[2019-07-13 11:01:54,640: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:01:58,643: WARNING/Worker-2] end course task
+[2019-07-13 11:01:58,645: INFO/MainProcess] Task course-task[733468ce-64c4-46e3-b6fa-2d78a5fc4e69] succeeded in 4.005700943991542s: None
+[2019-07-13 11:02:14,642: INFO/MainProcess] Received task: course-task[c10cae20-345f-4839-8edd-333e71ddc96a]
+[2019-07-13 11:02:14,644: WARNING/Worker-3] start course task
+[2019-07-13 11:02:14,644: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:02:18,647: WARNING/Worker-3] end course task
+[2019-07-13 11:02:18,650: INFO/MainProcess] Task course-task[c10cae20-345f-4839-8edd-333e71ddc96a] succeeded in 4.005726611008868s: None
+[2019-07-13 11:02:19,642: INFO/MainProcess] Received task: course-task[d37936b0-7840-4ab3-b15c-483545248fae]
+[2019-07-13 11:02:19,643: WARNING/Worker-1] start course task
+[2019-07-13 11:02:19,644: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:02:23,647: WARNING/Worker-1] end course task
+[2019-07-13 11:02:23,649: INFO/MainProcess] Task course-task[d37936b0-7840-4ab3-b15c-483545248fae] succeeded in 4.0061404410225805s: None
+[2019-07-13 11:02:39,642: INFO/MainProcess] Received task: course-task[4f3a3def-3ede-482e-bd3e-536b21b7c02c]
+[2019-07-13 11:02:39,643: WARNING/Worker-4] start course task
+[2019-07-13 11:02:39,644: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:02:43,647: WARNING/Worker-4] end course task
+[2019-07-13 11:02:43,650: INFO/MainProcess] Task course-task[4f3a3def-3ede-482e-bd3e-536b21b7c02c] succeeded in 4.006487312988611s: None
+[2019-07-13 11:02:44,644: INFO/MainProcess] Received task: course-task[4a5fde3d-8eb7-4f18-b4b6-52dd0efd32d9]
+[2019-07-13 11:02:44,646: WARNING/Worker-2] start course task
+[2019-07-13 11:02:44,647: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:02:48,651: WARNING/Worker-2] end course task
+[2019-07-13 11:02:48,654: INFO/MainProcess] Task course-task[4a5fde3d-8eb7-4f18-b4b6-52dd0efd32d9] succeeded in 4.007975871005328s: None
+[2019-07-13 11:03:04,652: INFO/MainProcess] Received task: course-task[a41a97e3-5604-470c-9b5f-d9ff84065f77]
+[2019-07-13 11:03:04,655: WARNING/Worker-3] start course task
+[2019-07-13 11:03:04,655: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:03:08,659: WARNING/Worker-3] end course task
+[2019-07-13 11:03:08,665: INFO/MainProcess] Task course-task[a41a97e3-5604-470c-9b5f-d9ff84065f77] succeeded in 4.009773257013876s: None
+[2019-07-13 11:03:09,652: INFO/MainProcess] Received task: course-task[7f9de3d7-34de-4bf2-848d-15540df2b1b5]
+[2019-07-13 11:03:09,656: WARNING/Worker-1] start course task
+[2019-07-13 11:03:09,656: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:03:13,660: WARNING/Worker-1] end course task
+[2019-07-13 11:03:13,663: INFO/MainProcess] Task course-task[7f9de3d7-34de-4bf2-848d-15540df2b1b5] succeeded in 4.007845771004213s: None
+[2019-07-13 11:03:21,102: INFO/MainProcess] Events of group {task} enabled by remote.
+[2019-07-13 11:03:34,658: INFO/MainProcess] Received task: course-task[df7f0fad-ff49-462f-b64b-eb33d8dc36d7]
+[2019-07-13 11:03:34,663: WARNING/Worker-4] start course task
+[2019-07-13 11:03:34,664: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:03:38,667: WARNING/Worker-4] end course task
+[2019-07-13 11:03:38,673: INFO/MainProcess] Task course-task[df7f0fad-ff49-462f-b64b-eb33d8dc36d7] succeeded in 4.0060800579958595s: None
+[2019-07-13 11:03:59,663: INFO/MainProcess] Received task: course-task[ca04df18-e9ba-4aa3-a55f-2442530a203d]
+[2019-07-13 11:03:59,667: WARNING/Worker-2] start course task
+[2019-07-13 11:03:59,668: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:04:03,671: WARNING/Worker-2] end course task
+[2019-07-13 11:04:03,674: INFO/MainProcess] Task course-task[ca04df18-e9ba-4aa3-a55f-2442530a203d] succeeded in 4.00585686598788s: None
+[2019-07-13 11:04:19,667: INFO/MainProcess] Received task: course-task[174ff916-94cc-4aa5-b417-2f664e2db528]
+[2019-07-13 11:04:19,673: WARNING/Worker-3] start course task
+[2019-07-13 11:04:19,673: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:04:23,675: WARNING/Worker-3] end course task
+[2019-07-13 11:04:23,686: INFO/MainProcess] Task course-task[174ff916-94cc-4aa5-b417-2f664e2db528] succeeded in 4.009521455009235s: None
+[2019-07-13 11:04:39,667: INFO/MainProcess] Received task: course-task[999520cb-efad-428f-bff1-12bfa1e7c5b9]
+[2019-07-13 11:04:39,670: WARNING/Worker-1] start course task
+[2019-07-13 11:04:39,670: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:04:43,674: WARNING/Worker-1] end course task
+[2019-07-13 11:04:43,680: INFO/MainProcess] Task course-task[999520cb-efad-428f-bff1-12bfa1e7c5b9] succeeded in 4.009678952017566s: None
+[2019-07-13 11:04:44,668: INFO/MainProcess] Received task: course-task[d431c514-7e23-4038-adec-e662313960ce]
+[2019-07-13 11:04:44,672: WARNING/Worker-4] start course task
+[2019-07-13 11:04:44,673: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:04:48,675: WARNING/Worker-4] end course task
+[2019-07-13 11:04:48,682: INFO/MainProcess] Task course-task[d431c514-7e23-4038-adec-e662313960ce] succeeded in 4.0075669799989555s: None
+[2019-07-13 11:05:04,686: INFO/MainProcess] Received task: course-task[13a73a09-1a5b-4c04-9e97-9d41748b1562]
+[2019-07-13 11:05:04,690: WARNING/Worker-2] start course task
+[2019-07-13 11:05:04,690: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:05:08,691: WARNING/Worker-2] end course task
+[2019-07-13 11:05:08,696: INFO/MainProcess] Task course-task[13a73a09-1a5b-4c04-9e97-9d41748b1562] succeeded in 4.005231972987531s: None
+[2019-07-13 11:05:29,692: INFO/MainProcess] Received task: course-task[862b1dfe-a684-4425-bc4e-96f8c2b5a718]
+[2019-07-13 11:05:29,697: WARNING/Worker-3] start course task
+[2019-07-13 11:05:29,697: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:05:33,699: WARNING/Worker-3] end course task
+[2019-07-13 11:05:33,702: INFO/MainProcess] Task course-task[862b1dfe-a684-4425-bc4e-96f8c2b5a718] succeeded in 4.004688137996709s: None
+[2019-07-13 11:05:49,693: INFO/MainProcess] Received task: course-task[eb0a9f74-915e-415b-8b6e-e3c7708b79c7]
+[2019-07-13 11:05:49,696: WARNING/Worker-1] start course task
+[2019-07-13 11:05:49,697: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:05:53,699: WARNING/Worker-1] end course task
+[2019-07-13 11:05:53,701: INFO/MainProcess] Task course-task[eb0a9f74-915e-415b-8b6e-e3c7708b79c7] succeeded in 4.005081752984552s: None
+[2019-07-13 11:06:09,697: INFO/MainProcess] Received task: course-task[67511c27-58d1-43e4-b8e0-aafcc5b8072f]
+[2019-07-13 11:06:09,702: WARNING/Worker-4] start course task
+[2019-07-13 11:06:09,702: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:06:13,706: WARNING/Worker-4] end course task
+[2019-07-13 11:06:13,707: INFO/MainProcess] Task course-task[67511c27-58d1-43e4-b8e0-aafcc5b8072f] succeeded in 4.005671638995409s: None
+[2019-07-13 11:06:14,698: INFO/MainProcess] Received task: course-task[44494f94-75ec-4b6a-b842-049cead911b1]
+[2019-07-13 11:06:14,703: WARNING/Worker-2] start course task
+[2019-07-13 11:06:14,703: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:06:18,707: WARNING/Worker-2] end course task
+[2019-07-13 11:06:18,715: INFO/MainProcess] Task course-task[44494f94-75ec-4b6a-b842-049cead911b1] succeeded in 4.0104257309867535s: None
+[2019-07-13 11:06:34,701: INFO/MainProcess] Received task: course-task[1252b8a5-c70f-496f-a5e3-561522839d27]
+[2019-07-13 11:06:34,704: WARNING/Worker-3] start course task
+[2019-07-13 11:06:34,705: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:06:38,707: WARNING/Worker-3] end course task
+[2019-07-13 11:06:38,715: INFO/MainProcess] Task course-task[1252b8a5-c70f-496f-a5e3-561522839d27] succeeded in 4.008132076007314s: None
+[2019-07-13 11:06:54,711: INFO/MainProcess] Received task: course-task[c7b0d65b-91e7-46c6-a691-006b71bd3534]
+[2019-07-13 11:06:54,714: WARNING/Worker-1] start course task
+[2019-07-13 11:06:54,715: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:06:58,719: WARNING/Worker-1] end course task
+[2019-07-13 11:06:58,723: INFO/MainProcess] Task course-task[c7b0d65b-91e7-46c6-a691-006b71bd3534] succeeded in 4.007417235989124s: None
+[2019-07-13 11:07:19,714: INFO/MainProcess] Received task: course-task[a18bc45b-47b6-4003-b206-f4d1e0707802]
+[2019-07-13 11:07:19,717: WARNING/Worker-4] start course task
+[2019-07-13 11:07:19,718: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:07:23,720: WARNING/Worker-4] end course task
+[2019-07-13 11:07:23,725: INFO/MainProcess] Task course-task[a18bc45b-47b6-4003-b206-f4d1e0707802] succeeded in 4.006557004002389s: None
+[2019-07-13 11:07:39,716: INFO/MainProcess] Received task: course-task[d4d2ff94-5f58-464d-9e1c-982d4c6838c5]
+[2019-07-13 11:07:39,719: WARNING/Worker-2] start course task
+[2019-07-13 11:07:39,719: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:07:43,723: WARNING/Worker-2] end course task
+[2019-07-13 11:07:43,726: INFO/MainProcess] Task course-task[d4d2ff94-5f58-464d-9e1c-982d4c6838c5] succeeded in 4.006341982021695s: None
+[2019-07-13 11:07:44,716: INFO/MainProcess] Received task: course-task[585da389-c83a-41d2-8429-3d5f0c2040c4]
+[2019-07-13 11:07:44,720: WARNING/Worker-3] start course task
+[2019-07-13 11:07:44,720: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:07:48,723: WARNING/Worker-3] end course task
+[2019-07-13 11:07:48,724: INFO/MainProcess] Task course-task[585da389-c83a-41d2-8429-3d5f0c2040c4] succeeded in 4.004712890018709s: None
+[2019-07-13 11:07:59,731: INFO/MainProcess] Received task: course-task[5df2d676-92c3-4392-9004-6ebf99bf6ea3]
+[2019-07-13 11:07:59,734: WARNING/Worker-1] start course task
+[2019-07-13 11:07:59,735: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:08:03,739: WARNING/Worker-1] end course task
+[2019-07-13 11:08:03,743: INFO/MainProcess] Task course-task[5df2d676-92c3-4392-9004-6ebf99bf6ea3] succeeded in 4.007575850991998s: None
+[2019-07-13 11:08:04,731: INFO/MainProcess] Received task: course-task[f44583e4-a1bb-42cb-b1c1-d096bde3ba87]
+[2019-07-13 11:08:04,735: WARNING/Worker-4] start course task
+[2019-07-13 11:08:04,735: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:08:08,739: WARNING/Worker-4] end course task
+[2019-07-13 11:08:08,743: INFO/MainProcess] Task course-task[f44583e4-a1bb-42cb-b1c1-d096bde3ba87] succeeded in 4.007139664026909s: None
+[2019-07-13 11:08:24,735: INFO/MainProcess] Received task: course-task[7f58c672-b985-4ac5-ba96-c9348743e164]
+[2019-07-13 11:08:24,740: WARNING/Worker-2] start course task
+[2019-07-13 11:08:24,741: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:08:28,743: WARNING/Worker-2] end course task
+[2019-07-13 11:08:28,746: INFO/MainProcess] Task course-task[7f58c672-b985-4ac5-ba96-c9348743e164] succeeded in 4.0057710190012585s: None
+[2019-07-13 11:08:49,736: INFO/MainProcess] Received task: course-task[60cb17ec-8154-414d-99b2-75ccb7ef24b8]
+[2019-07-13 11:08:49,739: WARNING/Worker-3] start course task
+[2019-07-13 11:08:49,739: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:08:53,743: WARNING/Worker-3] end course task
+[2019-07-13 11:08:53,747: INFO/MainProcess] Task course-task[60cb17ec-8154-414d-99b2-75ccb7ef24b8] succeeded in 4.006741995981429s: None
+[2019-07-13 11:09:09,736: INFO/MainProcess] Received task: course-task[881de8bb-2a49-4a74-a4b1-0f52281a8955]
+[2019-07-13 11:09:09,737: WARNING/Worker-1] start course task
+[2019-07-13 11:09:09,737: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:09:13,741: WARNING/Worker-1] end course task
+[2019-07-13 11:09:13,745: INFO/MainProcess] Task course-task[881de8bb-2a49-4a74-a4b1-0f52281a8955] succeeded in 4.006864563998533s: None
+[2019-07-13 11:09:29,738: INFO/MainProcess] Received task: course-task[3433c381-51af-47ff-ad4f-7db99ac6b43f]
+[2019-07-13 11:09:29,739: WARNING/Worker-4] start course task
+[2019-07-13 11:09:29,739: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:09:33,744: WARNING/Worker-4] end course task
+[2019-07-13 11:09:33,747: INFO/MainProcess] Task course-task[3433c381-51af-47ff-ad4f-7db99ac6b43f] succeeded in 4.007181377004599s: None
+[2019-07-13 11:09:34,740: INFO/MainProcess] Received task: course-task[80cad6aa-c5b7-493b-9efc-a3b8f2b885ef]
+[2019-07-13 11:09:34,745: WARNING/Worker-2] start course task
+[2019-07-13 11:09:34,746: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:09:38,750: WARNING/Worker-2] end course task
+[2019-07-13 11:09:38,754: INFO/MainProcess] Task course-task[80cad6aa-c5b7-493b-9efc-a3b8f2b885ef] succeeded in 4.009025334002217s: None
+[2019-07-13 11:09:54,742: INFO/MainProcess] Received task: course-task[712c2957-799f-4bf4-882f-76b365fa6883]
+[2019-07-13 11:09:54,745: WARNING/Worker-3] start course task
+[2019-07-13 11:09:54,745: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:09:58,750: WARNING/Worker-3] end course task
+[2019-07-13 11:09:58,754: INFO/MainProcess] Task course-task[712c2957-799f-4bf4-882f-76b365fa6883] succeeded in 4.007921705982881s: None
+[2019-07-13 11:10:19,744: INFO/MainProcess] Received task: course-task[9f176a38-d2d7-4ca6-a6a5-d241f7f2fe8d]
+[2019-07-13 11:10:19,747: WARNING/Worker-1] start course task
+[2019-07-13 11:10:19,747: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:10:23,751: WARNING/Worker-1] end course task
+[2019-07-13 11:10:23,755: INFO/MainProcess] Task course-task[9f176a38-d2d7-4ca6-a6a5-d241f7f2fe8d] succeeded in 4.0071036480076145s: None
+[2019-07-13 11:10:39,746: INFO/MainProcess] Received task: course-task[12162436-39b8-48d4-b4c1-8cd28166b686]
+[2019-07-13 11:10:39,750: WARNING/Worker-4] start course task
+[2019-07-13 11:10:39,750: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:10:43,752: WARNING/Worker-4] end course task
+[2019-07-13 11:10:43,756: INFO/MainProcess] Task course-task[12162436-39b8-48d4-b4c1-8cd28166b686] succeeded in 4.0054847299761605s: None
+[2019-07-13 11:10:59,760: INFO/MainProcess] Received task: course-task[71b17202-b11d-4fd0-b282-4555b9a5bd30]
+[2019-07-13 11:10:59,764: WARNING/Worker-2] start course task
+[2019-07-13 11:10:59,764: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:11:03,767: WARNING/Worker-2] end course task
+[2019-07-13 11:11:03,768: INFO/MainProcess] Task course-task[71b17202-b11d-4fd0-b282-4555b9a5bd30] succeeded in 4.004365244007204s: None
+[2019-07-13 11:11:04,761: INFO/MainProcess] Received task: course-task[7331d209-3eb1-4dbb-b98c-a06e77b592e3]
+[2019-07-13 11:11:04,765: WARNING/Worker-3] start course task
+[2019-07-13 11:11:04,765: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:11:08,767: WARNING/Worker-3] end course task
+[2019-07-13 11:11:08,770: INFO/MainProcess] Task course-task[7331d209-3eb1-4dbb-b98c-a06e77b592e3] succeeded in 4.005154804006452s: None
+[2019-07-13 11:11:24,763: INFO/MainProcess] Received task: course-task[6bb4ee27-ac04-4573-bdee-eb0af61ccf24]
+[2019-07-13 11:11:24,766: WARNING/Worker-1] start course task
+[2019-07-13 11:11:24,766: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:11:28,771: WARNING/Worker-1] end course task
+[2019-07-13 11:11:28,774: INFO/MainProcess] Task course-task[6bb4ee27-ac04-4573-bdee-eb0af61ccf24] succeeded in 4.0078052910103s: None
+[2019-07-13 11:11:44,765: INFO/MainProcess] Received task: course-task[c79f869f-ef10-4776-ad42-6be8f7a64591]
+[2019-07-13 11:11:44,767: WARNING/Worker-4] start course task
+[2019-07-13 11:11:44,767: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:11:48,771: WARNING/Worker-4] end course task
+[2019-07-13 11:11:48,774: INFO/MainProcess] Task course-task[c79f869f-ef10-4776-ad42-6be8f7a64591] succeeded in 4.006161958008306s: None
+[2019-07-13 11:12:09,768: INFO/MainProcess] Received task: course-task[c9b9490e-7675-44a4-8189-373a008402f1]
+[2019-07-13 11:12:09,771: WARNING/Worker-2] start course task
+[2019-07-13 11:12:09,772: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:12:13,775: WARNING/Worker-2] end course task
+[2019-07-13 11:12:13,778: INFO/MainProcess] Task course-task[c9b9490e-7675-44a4-8189-373a008402f1] succeeded in 4.006459366006311s: None
+[2019-07-13 11:12:29,769: INFO/MainProcess] Received task: course-task[3999ad46-474f-4bea-890b-97e9106ba3e2]
+[2019-07-13 11:12:29,772: WARNING/Worker-3] start course task
+[2019-07-13 11:12:29,773: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:12:33,775: WARNING/Worker-3] end course task
+[2019-07-13 11:12:33,778: INFO/MainProcess] Task course-task[3999ad46-474f-4bea-890b-97e9106ba3e2] succeeded in 4.0051740990020335s: None
+[2019-07-13 11:12:34,769: INFO/MainProcess] Received task: course-task[3e84668a-91d6-424a-b9fe-f5a76bc6c3ce]
+[2019-07-13 11:12:34,773: WARNING/Worker-1] start course task
+[2019-07-13 11:12:34,773: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:12:38,777: WARNING/Worker-1] end course task
+[2019-07-13 11:12:38,781: INFO/MainProcess] Task course-task[3e84668a-91d6-424a-b9fe-f5a76bc6c3ce] succeeded in 4.007708227989497s: None
+[2019-07-13 11:12:49,771: INFO/MainProcess] Received task: course-task[41de4932-72b7-445e-8b68-1fec7275b7f5]
+[2019-07-13 11:12:49,774: WARNING/Worker-4] start course task
+[2019-07-13 11:12:49,775: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:12:53,779: WARNING/Worker-4] end course task
+[2019-07-13 11:12:53,782: INFO/MainProcess] Task course-task[41de4932-72b7-445e-8b68-1fec7275b7f5] succeeded in 4.007735782011878s: None
+[2019-07-13 11:12:54,772: INFO/MainProcess] Received task: course-task[52d7a26f-135c-4386-8b1f-f0230767054d]
+[2019-07-13 11:12:54,777: WARNING/Worker-2] start course task
+[2019-07-13 11:12:54,777: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:12:58,779: WARNING/Worker-2] end course task
+[2019-07-13 11:12:58,782: INFO/MainProcess] Task course-task[52d7a26f-135c-4386-8b1f-f0230767054d] succeeded in 4.005022458994063s: None
+[2019-07-13 11:13:14,775: INFO/MainProcess] Received task: course-task[8bc3e8e8-6817-4871-a21b-ccd7270e34f3]
+[2019-07-13 11:13:14,780: WARNING/Worker-3] start course task
+[2019-07-13 11:13:14,781: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:13:18,783: WARNING/Worker-3] end course task
+[2019-07-13 11:13:18,787: INFO/MainProcess] Task course-task[8bc3e8e8-6817-4871-a21b-ccd7270e34f3] succeeded in 4.006639525003266s: None
+[2019-07-13 11:13:34,776: INFO/MainProcess] Received task: course-task[f68a5087-1da8-4c17-8ee2-1b0f306da6e6]
+[2019-07-13 11:13:34,779: WARNING/Worker-1] start course task
+[2019-07-13 11:13:34,780: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:13:38,783: WARNING/Worker-1] end course task
+[2019-07-13 11:13:38,786: INFO/MainProcess] Task course-task[f68a5087-1da8-4c17-8ee2-1b0f306da6e6] succeeded in 4.006397341989214s: None
+[2019-07-13 11:13:39,774: INFO/MainProcess] Received task: course-task[6f8425be-9cdd-4ee5-bbf9-c2dcf44e5216]
+[2019-07-13 11:13:39,776: WARNING/Worker-4] start course task
+[2019-07-13 11:13:39,776: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:13:43,780: WARNING/Worker-4] end course task
+[2019-07-13 11:13:43,784: INFO/MainProcess] Task course-task[6f8425be-9cdd-4ee5-bbf9-c2dcf44e5216] succeeded in 4.0072592409851495s: None
+[2019-07-13 11:13:59,793: INFO/MainProcess] Received task: course-task[502b5b68-5556-4f53-b542-b34cf92fdd1d]
+[2019-07-13 11:13:59,799: WARNING/Worker-2] start course task
+[2019-07-13 11:13:59,800: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:14:03,803: WARNING/Worker-2] end course task
+[2019-07-13 11:14:03,807: INFO/MainProcess] Task course-task[502b5b68-5556-4f53-b542-b34cf92fdd1d] succeeded in 4.006455205002567s: None
+[2019-07-13 11:14:19,792: INFO/MainProcess] Received task: course-task[5b3dc9e1-ed7e-4750-95d7-41c4a496fc6d]
+[2019-07-13 11:14:19,796: WARNING/Worker-3] start course task
+[2019-07-13 11:14:19,797: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:14:23,799: WARNING/Worker-3] end course task
+[2019-07-13 11:14:23,801: INFO/MainProcess] Task course-task[5b3dc9e1-ed7e-4750-95d7-41c4a496fc6d] succeeded in 4.0049040029989555s: None
+[2019-07-13 11:14:24,793: INFO/MainProcess] Received task: course-task[c40491dd-d2e0-428c-81ca-eca891b5791d]
+[2019-07-13 11:14:24,796: WARNING/Worker-1] start course task
+[2019-07-13 11:14:24,797: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:14:28,799: WARNING/Worker-1] end course task
+[2019-07-13 11:14:28,803: INFO/MainProcess] Task course-task[c40491dd-d2e0-428c-81ca-eca891b5791d] succeeded in 4.006253719999222s: None
+[2019-07-13 11:14:44,795: INFO/MainProcess] Received task: course-task[12bc99c7-9733-476a-ad69-8169f57d9c96]
+[2019-07-13 11:14:44,799: WARNING/Worker-4] start course task
+[2019-07-13 11:14:44,799: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:14:48,803: WARNING/Worker-4] end course task
+[2019-07-13 11:14:48,804: INFO/MainProcess] Task course-task[12bc99c7-9733-476a-ad69-8169f57d9c96] succeeded in 4.005377347988542s: None
+[2019-07-13 11:15:04,798: INFO/MainProcess] Received task: course-task[eec08d2c-a03e-4102-b84d-e1700e078242]
+[2019-07-13 11:15:04,802: WARNING/Worker-2] start course task
+[2019-07-13 11:15:04,802: WARNING/Worker-2] args=(),kwargs={}
+[2019-07-13 11:15:08,807: WARNING/Worker-2] end course task
+[2019-07-13 11:15:08,810: INFO/MainProcess] Task course-task[eec08d2c-a03e-4102-b84d-e1700e078242] succeeded in 4.008038478001254s: None
+[2019-07-13 11:15:29,800: INFO/MainProcess] Received task: course-task[2f23efe0-ccad-4c7a-a891-7ddec66742be]
+[2019-07-13 11:15:29,803: WARNING/Worker-3] start course task
+[2019-07-13 11:15:29,804: WARNING/Worker-3] args=(),kwargs={}
+[2019-07-13 11:15:33,807: WARNING/Worker-3] end course task
+[2019-07-13 11:15:33,811: INFO/MainProcess] Task course-task[2f23efe0-ccad-4c7a-a891-7ddec66742be] succeeded in 4.00636916901567s: None
+[2019-07-13 11:15:49,801: INFO/MainProcess] Received task: course-task[a798c326-3be0-4170-9a42-842edadfdb0e]
+[2019-07-13 11:15:49,805: WARNING/Worker-1] start course task
+[2019-07-13 11:15:49,805: WARNING/Worker-1] args=(),kwargs={}
+[2019-07-13 11:15:53,807: WARNING/Worker-1] end course task
+[2019-07-13 11:15:53,810: INFO/MainProcess] Task course-task[a798c326-3be0-4170-9a42-842edadfdb0e] succeeded in 4.00485597999068s: None
+[2019-07-13 11:15:54,803: INFO/MainProcess] Received task: course-task[2887e67d-54ce-4dbf-a44b-c05e8ee45fce]
+[2019-07-13 11:15:54,807: WARNING/Worker-4] start course task
+[2019-07-13 11:15:54,807: WARNING/Worker-4] args=(),kwargs={}
+[2019-07-13 11:15:58,811: WARNING/Worker-4] end course task
+[2019-07-13 11:15:58,813: INFO/MainProcess] Task course-task[2887e67d-54ce-4dbf-a44b-c05e8ee45fce] succeeded in 4.005731754004955s: None

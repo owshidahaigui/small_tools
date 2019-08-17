@@ -1,0 +1,18 @@
+[INFO  - 2019-07-26T07:36:35.450Z] GhostDriver - Main - running on port 58753
+[INFO  - 2019-07-26T07:36:36.393Z] Session [191df200-af78-11e9-aac7-619bc2250b79] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-26T07:36:36.393Z] Session [191df200-af78-11e9-aac7-619bc2250b79] - page.customHeaders:  - {}
+[INFO  - 2019-07-26T07:36:36.393Z] Session [191df200-af78-11e9-aac7-619bc2250b79] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-26T07:36:36.394Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 191df200-af78-11e9-aac7-619bc2250b79
+[ERROR - 2019-07-26T07:36:41.315Z] Session [191df200-af78-11e9-aac7-619bc2250b79] - page.onError - msg: TypeError: null is not an object (evaluating 'res.data')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-07-26T07:36:41.315Z] Session [191df200-af78-11e9-aac7-619bc2250b79] - page.onError - stack:
+  (anonymous function) (https://search.jd.com/script/search_new.init.js?2019062419.js:505)
+  resolveWith (https://misc.360buyimg.com/??jdf/1.0.0/unit/base/5.0.0/base.js,jdf/lib/jquery-1.6.4.js,product/module/es5-shim.js:4)
+  w (https://misc.360buyimg.com/??jdf/1.0.0/unit/base/5.0.0/base.js,jdf/lib/jquery-1.6.4.js,product/module/es5-shim.js:6)
+  onreadystatechange (https://misc.360buyimg.com/??jdf/1.0.0/unit/base/5.0.0/base.js,jdf/lib/jquery-1.6.4.js,product/module/es5-shim.js:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-07-26T07:36:41.561Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1564126601558
+
+  phantomjs://platform/console++.js:263 in error

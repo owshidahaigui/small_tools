@@ -1,0 +1,25 @@
+2019-05-20 19:20:35,071 ERROR    this is an exception message,test,4行
+Traceback (most recent call last):
+  File "/home/tarena/桌面/test/z_rizhi/test.py", line 6, in <module>
+    1 / 0
+ZeroDivisionError: division by zero
+2019-05-20 19:21:05,419 ERROR    
+this is an exception message,test,4行
+Traceback (most recent call last):
+  File "/home/tarena/桌面/test/z_rizhi/test.py", line 6, in <module>
+    1 / 0
+ZeroDivisionError: division by zero
+2019-05-20 19:21:55,623 ERROR    
+
+this is an exception message,test,4行
+Traceback (most recent call last):
+  File "/home/tarena/桌面/test/z_rizhi/test.py", line 6, in <module>
+    1 / 0
+ZeroDivisionError: division by zero
+
+
+2019-05-20 19:22:49,973 ERROR    this is an exception message,test,4行
+Traceback (most recent call last):
+  File "/home/tarena/桌面/test/z_rizhi/test.py", line 6, in <module>
+    1 / 0
+ZeroDivisionError: division by zero

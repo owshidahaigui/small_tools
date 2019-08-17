@@ -1,0 +1,2 @@
+腾讯云SDK短信发送
+pip install qcloudsms_py

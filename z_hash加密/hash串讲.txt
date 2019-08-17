@@ -1,0 +1,36 @@
+哈希：加密手段 hash
+场景：服务器后台数据的加密存储
+python应用：
+1.hash内置函数
+	print(hash("abc"))
+	hash(str([1,2,3]))
+
+
+2.hashlib模块
+	import hashlib
+
+    #md5对象，md5不能反解，但是加密是固定的，
+    就是关系是一一对应，
+    所以有缺陷，可以被对撞出来；#
+    应用MD5算法（sha1,sha256,sha384,sha512等）
+
+import hashlib
+md5 = hashlib.md5()
+data = "hello world"
+md5.update(data.encode('utf-8'))
+md5=md5.hexdigest()
+print(md5)
+
+
+	加盐加密：
+	hash = hashlib.md5('abc'.encode('utf-8'))
+ 	hash.update('hello world'.encode('utf-8'))
+ 	print(hash.hexdigest())
+ 	###75b431c498b55557591f834af7856b9f
+
+
+
+
+
+
+

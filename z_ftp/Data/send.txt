@@ -1,0 +1,24 @@
+import socket
+from multiprocessing import Process
+
+socket_file = './scok_file1'
+
+
+def client():
+    c = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+    c.connect(socket_file)
+    request(c)
+
+
+def request(c):
+    while 1:
+        msg = input('>>>')
+        if not msg:
+            break
+        c.send(msg.encode())
+    c.close()
+
+
+if __name__ == '__main__':
+    client()
+

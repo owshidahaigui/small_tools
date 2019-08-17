@@ -1,0 +1,52 @@
+from socket import *
+import os
+from multiprocessing import Process
+
+# 创建本地套接字文件
+socket_file = './scok_file1'
+
+if os.path.exists(socket_file):
+    os.remove(socket_file)
+
+
+def server():
+    # 创建本地套接字
+    s = socket(AF_UNIX, SOCK_STREAM)
+    # 绑定本地套接字文件
+    s.bind(socket_file)
+    # 监听
+    s.listen(5)
+    # 获取连接
+    s_new, addr = s.accept()
+
+    request(s_new)
+
+
+def request(s_new):
+    to_recv(s_new)
+    # to_send()
+    r = Process(target=to_recv)
+    s = Process(target=to_send)
+    r.start()
+    s.start()
+    r.join()
+    s.join()
+
+
+def to_recv(s_new):
+    print(os.getppid(), '--------', os.getpid())
+    # while 1:
+    data = s_new.recv(1024)
+    # if not data:
+    #     break
+    print('来自的内容:%s' % data.decode())
+    # s_new.close()
+
+
+def to_send():
+    print('sfs')
+    print(os.getppid(), '--------', os.getpid())
+
+
+server()
+

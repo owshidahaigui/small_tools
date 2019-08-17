@@ -1,0 +1,88 @@
+
+
+
+celery 
+
+环境变量设置
+
+1.pip3 install celery[redis]
+
+2.下载安装redis 数据库文件,官网下载 
+
+3.启动 worker : celery worker -A celery_app -l INFO    celery_app为app文件,如果是文件夹,可以在__init__.py里创建app=Celery('demo')
+   注意redis 版本 使用2.10.6版
+
+4.启动定时器 :celery beat -A celery_app -l INFO  
+
+from datetime import timedelta
+每隔多少时间
+from celery.schedules import crontab
+每天什么时间
+一条命令同时执行上面两个命令  celery -B -A celery_app worker -l INFO  
+
+HELP:celery worker --help
+
+
+django中应用
+
+Install:pip3 install django-celery
+作用为可以用下面代码来启动
+Worker:python3 manage.py celery worker-Q queue
+
+Beat:python3 manage.py celery beat
+
+注意: django_celery 版本 
+	Celery 4.0 supports Django 1.8 and newer versions .Please use Celery 3.1 for versions older
+	than Django 1.8
+
+搭配:  redis 2.10.6
+	celery 3.1.26
+	Django 1.8  特别重要这是个临界版本
+	django-celery 3.2.2
+
+	
+
+监控工具:flower
+Install:pip3 install flower
+
+注意:版本
+					默认端口
+Start:celery flower --address=0.0.0. --port=5555 --broker=xxxx --basic_auth=username:password
+
+
+
+进程管理:supervisor 
+
+Install: pip3 install supervisor 
+
+Start: supervisord -c /etc/supervisord.conf
+
+Tool:supervisorctl
+
+命令: mkdir conf 创建文件夹
+
+系统配置:echo_supervisord_conf > conf/supervisord.conf
+
+启动:supervisord -c conf/supervisord.conf
+
+管理: supervisorctl 
+进入 
+	supervisor>>>  version  查看版本
+	supervisor>>>> status   运行
+	
+	supervisor>>>> update   新建ini 文件后刷新一下 
+172.0.0.1:9001 进入web图像化界面
+
+
+
+
+慕课网老师 github:  https://github.com/cnych/celery-learning
+
+
+
+
+	
+
+
+
+

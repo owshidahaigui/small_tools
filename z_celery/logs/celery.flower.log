@@ -1,0 +1,21 @@
+[I 190713 11:03:16 command:133] Visit me at http://localhost:5555
+[I 190713 11:03:16 command:138] Broker: redis://localhost:6379/1
+[I 190713 11:03:16 command:141] Registered tasks: 
+    ['celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap',
+     'course-task']
+[I 190713 11:03:16 mixins:231] Connected to redis://localhost:6379/1
+/home/tarena/桌面/test/my_code/month04/celery/taskproj/venv/lib/python3.6/site-packages/celery/app/control.py:36: DuplicateNodenameWarning: Received multiple replies from node name: celery@tarena.
+Please make sure you give each node a unique nodename using the `-n` option.
+  pluralize(len(dupes), 'name'), ', '.join(sorted(dupes)),
+
+[W 190713 11:03:17 warnings:99] /home/tarena/桌面/test/my_code/month04/celery/taskproj/venv/lib/python3.6/site-packages/celery/app/control.py:36: DuplicateNodenameWarning: Received multiple replies from node name: celery@tarena.
+    Please make sure you give each node a unique nodename using the `-n` option.
+      pluralize(len(dupes), 'name'), ', '.join(sorted(dupes)),
+    
