@@ -41,4 +41,4 @@ def file_rename(file_path):
 
 
 if __name__ == '__main__':
-    file_rename('/home/tarena/桌面/AIDCode/aid1902')
+    file_rename('/home/dahaigui/桌面/')
