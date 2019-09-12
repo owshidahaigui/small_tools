@@ -81,7 +81,7 @@ class Tarena_code:
 
 
 if __name__ == '__main__':
-    url = 'http://code.tarena.com.cn/BIGCode/big1902/01-javase/'
+    url = 'http://code.tarena.com.cn/AIDCode/aid1903/15_pandas/'
     start = time.time()
     t = Tarena_code()
     t.main(url)
